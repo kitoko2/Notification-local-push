@@ -100,6 +100,7 @@ class _MyHomeState extends State<MyHome> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
+    print(widget.payload);
     return Scaffold(
       appBar: new AppBar(
         title: Text("Augmented Reality"),
